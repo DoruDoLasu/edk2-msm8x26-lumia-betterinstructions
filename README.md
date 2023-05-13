@@ -1,3 +1,21 @@
+maybe later I will add better instructions on how to build this, like, I had some really really good ones but then my browser tab crashed and I lost any will to write them like that.
+basically this builds on EDK2 branch stable/202011, if you wanna do this get Ubuntu 18.04 or something because if you're compiler is too new it's gonna complain. use this fork instead of the original unless you wanna edit that one line out manually. 
+
+if you just want to install this, grab the mbm from the releases, that one works on my lumia 640 lte. 
+then follow the original instructions taking everything I mentioned below:
+
+- I have no idea what stage2.efi is, but it doesn't seem to be required
+- Boot-shim is from releases over here https://github.com/imbushuo/boot-shim/releases/tag/elf-loader-pre3 and you place it instead of resetphone.efi
+- (if you know what you're doing you could use ffuloader.efi instead, just remember to add "nointegrity" to it)
+- when it says <"{THAT_UUID_THING}"> it should be just "{THAT_UUID_THING}"
+- also if your phone doesn't have a camera button, don't do "timeout" and "displaybootmenu"... actually, why even have a boot menu if you're only gonna use it to boot this... and maybe other thing. in that case, 
+-- if you did resetphone hold down to boot into edk, if you did ffuloader hold up
+
+
+
+original instructions belowwwwww
+-------------------------------------------------
+
 # THIS REPO IS OUT OF DATE! I AM LEAVING IT HERE AS AN ARCHIVE REPO SINCE IT HAS INSTRUCTIONS TO INSTALL LINUX! IF YOU WANT AN UP TO DATE REPO USE THE MAINLINE4LUMIA REPO! THANKS!
 
 Mainline4Lumia team GitHub: https://github.com/Mainline4Lumia
