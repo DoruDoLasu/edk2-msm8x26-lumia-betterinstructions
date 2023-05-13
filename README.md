@@ -1,7 +1,7 @@
 maybe later I will add better instructions on how to build this, like, I had some really really good ones but then my browser tab crashed and I lost any will to write them like that.
-basically this builds on EDK2 branch stable/202011, if you wanna do this get Ubuntu 18.04 or something because if your compiler is too new it's gonna complain. use this fork instead of the original unless you wanna edit that one line out manually. 
+basically this builds on EDK2 branch stable/202011 (even when I got it to compile on the newest it didn't do anything and on this it does something, no idea why), if you wanna do this get Ubuntu 18.04 or something because if your compiler is too new it's gonna complain. use this fork instead of the original unless you wanna edit that one line out manually. 
 
-if you just want to install this, grab the mbm from the releases, that one works on my lumia 640 lte. 
+if you just want to install this, grab the mbn from the releases, that one works on my lumia 640 lte. 
 then follow the original instructions taking everything I mentioned below:
 
 - I have no idea what stage2.efi is, but it doesn't seem to be required
